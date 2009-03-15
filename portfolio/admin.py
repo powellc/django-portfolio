@@ -1,5 +1,5 @@
 from django.contrib import admin
-from porfolio.models import *
+from portfolio.models import *
 
 admin.site.register(Client)
 
