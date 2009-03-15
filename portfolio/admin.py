@@ -3,8 +3,10 @@ from portfolio.models import *
 
 admin.site.register(Client)
 
-class MediaAdmin(admin.ModelAdmin):
+class MediumAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug': ('name',)}    
+
+admin.site.register(Medium, MediumAdmin)
 
 class ProjectAdmin(admin.ModelAdmin):
     list_display  = ('name', 'completion_date', 'client', 'in_development', 'is_public')
