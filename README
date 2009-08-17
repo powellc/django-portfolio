@@ -6,8 +6,9 @@ Overview
 --------
 
 Mostly ripped from 
-[here](http://wilsonminer.com/posts/2006/may/10/are-you-generic). This 
-is just a really simple portfolio application I knocked up to "get 
+http://wilsonminer.com/posts/2006/may/10/are-you-generic
+
+This is just a really simple portfolio application I knocked up to "get 
 something," up on my professional site.
 
 The only external dependency is django-tagging.
